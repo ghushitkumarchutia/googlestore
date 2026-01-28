@@ -610,7 +610,7 @@ button {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.4rem;
-  max-width: 1050px;
+  max-width: 1150px;
   margin: 1.6rem auto;
 }
 
@@ -622,7 +622,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 280px;
+  min-height: 270px;
 }
 
 .perk_bottom_content {
@@ -646,4 +646,121 @@ button {
   color: var(--color-text-secondary);
   line-height: 1.6;
   margin-bottom: 2rem;
+}
+
+.discover-section {
+  padding: 1rem 0 0;
+  background-color: var(--color-white);
+}
+
+.discover-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--color-text);
+  margin-bottom: 2rem;
+}
+
+.discover-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.carousel-nav {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: var(--transition);
+  flex-shrink: 0;
+}
+
+.carousel-nav:hover {
+  background-color: var(--color-background);
+  box-shadow: var(--shadow-md);
+}
+
+.discover-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  flex: 1;
+}
+
+.discover-card {
+  text-align: center;
+}
+
+.discover-image {
+  width: 100%;
+  height: 300px;
+  border-radius: var(--border-radius-xl);
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.discover-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+.discover-text {
+  font-size: 1.3rem;
+  color: var(--color-text);
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+  padding: 0.6rem 3rem;
+}
+
+.read-article-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.read-article-link:hover {
+  text-decoration: underline;
+}
+
+.read-article-link span {
+  font-size: 1.25rem;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 5rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-border);
+  transition: var(--transition);
+}
+
+.dot.active {
+  background-color: var(--color-text);
+}
+
+.dot:hover {
+  background-color: var(--color-text-secondary);
 }

@@ -21,6 +21,8 @@ A pixel-perfect responsive clone of the Google Store landing page built with HTM
 
 ![Mobile View](images/Mobile.png)
 
+### Pull Request
+
 ![Pull Request](images/PullRequest.png)
 
 ## What I Learned

@@ -15,11 +15,11 @@ A pixel-perfect responsive clone of the Google Store landing page built with HTM
 
 ### Desktop
 
-![Desktop View](images/desktop.png)
+![Desktop View](images/Desktop.png)
 
 ### Mobile
 
-![Mobile View](images/mobile.png)
+![Mobile View](images/Mobile.png)
 
 ## What I Learned
 

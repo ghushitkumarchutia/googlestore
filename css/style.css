@@ -841,8 +841,8 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem;
-  border-radius: var(--border-radius-lg);
+  padding: 1rem;
+  border-radius: var(--border-radius-xl);
   background-color: var(--color-background);
   margin-bottom: 1rem;
 }
@@ -858,4 +858,36 @@ button {
   font-size: 1rem;
   color: var(--color-text);
   font-weight: 400;
+}
+
+.newsletter-section {
+  padding: 4rem 1.5rem;
+  margin: 2rem 2rem;
+  background-color: var(--color-background);
+  text-align: center;
+  border-radius: var(--border-radius-xxl);
+}
+
+.newsletter-icon {
+  margin-bottom: 1.5rem;
+  rotate: 90deg;
+}
+
+.newsletter-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: var(--color-text);
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.btn-outline-dark {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text);
+  background-color: transparent;
+  border: 1px solid var(--color-text);
+  border-radius: 100px;
 }
